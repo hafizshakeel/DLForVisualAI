@@ -16,7 +16,7 @@ This folder contains beginner implementations using PyTorch of different neural 
 In addition, I've added the complete setup for the whole training process. You will find code for how to load online and custom datasets, define paths for training, validation, and testing datasets, set hyperparameters, train models, find optimal parameters, and visualize results using TensorBoard. Later, I will add the code for testing the model and computing metrics. This setup will be used for training the upcoming intermediate to advanced neural network architectures. I also added detailed comments for readability and a better understanding of the code.
 
 ## CNN ARCHITECTURES
-This folder contains implementations of popular convolutional neural network architectures using PyTorch in the simplest form, including __LeNet__, __AlexNet__, __VGG__, __GoogLeNet__, and __ResNet__.
+This folder contains implementations of popular convolutional neural network architectures using PyTorch in the simplest form, including __LeNet__, __AlexNet__, __VGG__, __GoogLeNet__, and __ResNet__. Later, I plan to add a setup for the complete training process.
 
 
 ## GENERATIVE ADVERSARIAL NETWORKS
