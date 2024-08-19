@@ -3,7 +3,7 @@ import argparse
 import torchvision.datasets as datasets  # Import standard datasets from torchvision
 import torchvision.transforms as transforms  # Import transformations for data augmentation
 from torch.utils.data import DataLoader, random_split  # Import utilities for data loading and splitting
-from Basics.utils.dataset_for_ptp import CatsAndDogs  # Import custom dataset for cats and dogs classification
+from dataset import CatsAndDogs  # Import custom dataset for cats and dogs classification
 
 # Function to convert string input to boolean
 def str2bool(v):
