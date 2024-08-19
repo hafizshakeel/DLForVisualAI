@@ -1,3 +1,17 @@
+"""
+Convolution Neural Networks Implementation
+
+This script contains implementations of different neural networks:
+1. LeNet-5 Architecture
+2. VGG Architectures 
+3. GoogLeNet-Inception Architecture
+4. ResNet Architectures
+
+
+Author: Hafiz Shakeel Ahmad Awan
+Email: hafizshakeel1997@gmail.com
+"""
+
 import torch
 import torch.nn as nn
 
