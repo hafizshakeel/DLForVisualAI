@@ -33,10 +33,9 @@ class GoogLeNet(nn.Module):
         self.maxpool = nn.MaxPool2d(kernel_size=3, stride=2, padding=1)
         self.conv2 = conv_block(64, 192, kernel_size=3, stride=1, padding=1)
 
-        # In this order: in_channels, out_1x1, red_3x3, out_3x3, red_5x5, out_5x5, out_1x1pool
-        # Match with table values see GoogLeNet-table.png
 
-        # Inception modules 
+        # Inception modules params: (in_channels, out_1x1, red_3x3, out_3x3, red_5x5, out_5x5, out_1x1pool)
+        # Match with table values see GoogLeNet-table.png
         self.inception3a = Inception_module(192, 64, 96, 128, 16, 32, 32)
         self.inception3b = Inception_module(256, 128, 128, 192, 32, 96, 64)
 
