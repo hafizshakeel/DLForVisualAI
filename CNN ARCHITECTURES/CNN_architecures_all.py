@@ -8,7 +8,7 @@ This script contains implementations of different neural networks:
 4. ResNet Architectures
 
 
-Author: Hafiz Shakeel Ahmad Awan
+Implementation by: Hafiz Shakeel Ahmad Awan
 Email: hafizshakeel1997@gmail.com
 """
 
