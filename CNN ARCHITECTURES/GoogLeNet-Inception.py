@@ -5,7 +5,7 @@ This script contains the implementation of the GoogLeNet (Inception v1) deep lea
 It is designed for image classification tasks and has been used extensively in various
 computer vision tasks, including the ImageNet classification challenge.
 
-Author: Hafiz Shakeel Ahmad Awan
+Implementation by: Hafiz Shakeel Ahmad Awan
 Email: hafizshakeel1997@gmail.com
 """
 
