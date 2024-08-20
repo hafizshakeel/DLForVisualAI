@@ -7,7 +7,6 @@ This script contains implementations of different neural networks:
 3. GoogLeNet-Inception Architecture
 4. ResNet Architectures
 
-
 Implementation by: Hafiz Shakeel Ahmad Awan
 Email: hafizshakeel1997@gmail.com
 """
