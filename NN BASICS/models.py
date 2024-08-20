@@ -6,7 +6,7 @@ This script contains implementations of different neural networks:
 2. A simple fully convolutional network (CNN)
 3. Transfer learning using a pre-trained VGG16 model and GoogLeNet model
 
-Author: Hafiz Shakeel Ahmad Awan
+Implementation by: Hafiz Shakeel Ahmad Awan
 Email: hafizshakeel1997@gmail.com
 """
 
