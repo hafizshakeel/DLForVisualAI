@@ -4,7 +4,7 @@ Deep Learning Models Implementation
 This script contains the implementation of VGG architectures.
 It is designed for image classification tasks and demonstrates the VGG model variations.
 
-Author: Hafiz Shakeel Ahmad Awan
+Implementation by: Hafiz Shakeel Ahmad Awan
 Email: hafizshakeel1997@gmail.com
 """
 
