@@ -4,7 +4,7 @@ ResNet Architecture Implementation
 This script implements the ResNet architecture, which is widely used for image classification tasks.
 The ResNet models implemented here include ResNet-50, ResNet-101, and ResNet-152.
 
-Author: Hafiz Shakeel Ahmad Awan
+Implementation by: Hafiz Shakeel Ahmad Awan
 Email: hafizshakeel1997@gmail.com
 """
 
