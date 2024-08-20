@@ -5,7 +5,7 @@ This script contains the implementation of the LeNet-5 deep learning model.
 It is designed for image classification tasks and has been used extensively for digit recognition
 and other image processing tasks.
 
-Author: Hafiz Shakeel Ahmad Awan
+Implementation by: Hafiz Shakeel Ahmad Awan
 Email: hafizshakeel1997@gmail.com
 """
 
