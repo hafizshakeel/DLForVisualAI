@@ -30,7 +30,7 @@ This folder contains implementations of popular Generative Adversarial Networks 
 <br>
 
 ## Contact
-If you have any questions regarding the research publications, please feel free to reach out via email: [hafizshakeel1997@gmail.com](mailto:hafizshakeel1997@gmail.com).
+If you have any questions regarding the implementation, please feel free to reach out via email: [hafizshakeel1997@gmail.com](mailto:hafizshakeel1997@gmail.com).
 
 
 ---
