@@ -25,7 +25,7 @@ This folder contains implementations of popular convolutional neural network arc
 <br>
 
 ## GENERATIVE ADVERSARIAL NETWORKS
-This folder contains implementations of popular Generative Adversarial Networks (GANs) using PyTorch in the simplest form, starting from: **Simple FC GAN**, **DCGAN**, **WGAN**, **WGAN-GP**, **Pix2Pix**, **CycleGAN**, **ProGAN**, **SRGAN**, **ESRGAN**. Later, I plan to include a complete setup for training, validation, and testing of different architectures, along with pre-trained weights. 
+This folder contains implementations of popular Generative Adversarial Networks (GANs) using PyTorch in the simplest form, starting from: **Simple GAN**, **DCGAN**, **WGAN**, **WGAN-GP**, **Pix2Pix**, **CycleGAN**, **ProGAN**, **SRGAN**, **ESRGAN**. Later, I plan to include a complete setup for training, validation, and testing of different architectures, along with pre-trained weights. 
 
 <br>
 
