@@ -29,8 +29,10 @@ This folder contains implementations of popular Generative Adversarial Networks 
 
 <br>
 
+
 ## Acknowledgment & Credits
-[LeNet](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf), [VGG](https://arxiv.org/abs/1409.1556), [ResNet](https://arxiv.org/abs/1512.03385), [GoogLeNet](https://arxiv.org/abs/1409.4842), [aladdinpersson](https://github.com/aladdinpersson/Machine-Learning-Collection)
+[LeNet](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf), [VGG](https://arxiv.org/abs/1409.1556), [ResNet](https://arxiv.org/abs/1512.03385), [GoogLeNet](https://arxiv.org/abs/1409.4842), 
+[DCGAN](https://arxiv.org/abs/1511.06434),[WGAN](https://arxiv.org/abs/1701.07875),[WGAN-GP](https://arxiv.org/abs/1704.00028),[Pix2Pix](https://arxiv.org/abs/1611.07004),[CycleGAN](https://arxiv.org/abs/1703.10593),[ProGAN](https://arxiv.org/abs/1710.10196),[SRGAN](https://arxiv.org/abs/1609.04802),[ESRGAN](https://arxiv.org/abs/1809.00219), [aladdinpersson](https://github.com/aladdinpersson/Machine-Learning-Collection)
 
 
 Thank you for visiting my repository!
