@@ -29,10 +29,8 @@ This folder contains implementations of popular Generative Adversarial Networks 
 
 <br>
 
-## Contact
-If you have any questions regarding the implementation, please feel free to reach out via email: [hafizshakeel1997@gmail.com](mailto:hafizshakeel1997@gmail.com).
+## Acknowledgment & Credits
+[LeNet](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf), [VGG](https://arxiv.org/abs/1409.1556), [ResNet](https://arxiv.org/abs/1512.03385), [GoogLeNet](https://arxiv.org/abs/1409.4842), [aladdinpersson](https://github.com/aladdinpersson/Machine-Learning-Collection)
 
-
----
 
 Thank you for visiting my repository!
