@@ -1,11 +1,12 @@
 """
 Convolution Neural Networks Implementation
 
-This script contains implementations of different neural networks:
+This script contains implementations of various neural network architectures:
 1. LeNet-5 Architecture
-2. VGG Architectures 
-3. GoogLeNet-Inception Architecture
-4. ResNet Architectures
+2. AlexNet Architecture
+3. VGG Architectures 
+4. GoogLeNet-Inception Architecture
+5. ResNet Architectures
 
 Implementation by: Hafiz Shakeel Ahmad Awan
 Email: hafizshakeel1997@gmail.com
