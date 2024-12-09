@@ -340,8 +340,69 @@ class VGGNet(nn.Module):
 # x = torch.randn(64, 3, 224, 224)
 # print(model(x).shape)
 
-"""AlexNet Architecture"""
-# Will add code soon
+
+""" AlexNet Architecture """
+
+
+class AlexNet(nn.Module):
+    def __init__(self, num_classes=1000):
+        super().__init__()
+
+        # Define 5 convolutional layers with ReLU activation, normalization, and pooling
+        # Input size: (3 x 227 x 227) --> as per AlexNet paper
+        self.net = nn.Sequential(
+            nn.Conv2d(in_channels=3, out_channels=96, kernel_size=11, stride=4),  # Output: (96 x 55 x 55)
+            nn.ReLU(),
+            nn.LocalResponseNorm(size=5, alpha=0.0001, beta=0.75, k=2),
+            nn.MaxPool2d(kernel_size=3, stride=2),  # Output: (96 x 27 x 27)
+
+            nn.Conv2d(in_channels=96, out_channels=256, kernel_size=5, padding=2),  # Output: (256 x 27 x 27)
+            nn.ReLU(),
+            nn.LocalResponseNorm(size=5, alpha=0.0001, beta=0.75, k=2),
+            nn.MaxPool2d(kernel_size=3, stride=2),  # Output: (256 x 13 x 13)
+
+            nn.Conv2d(in_channels=256, out_channels=384, kernel_size=3, padding=1),  # Output: (384 x 13 x 13)
+            nn.ReLU(),
+
+            nn.Conv2d(in_channels=384, out_channels=384, kernel_size=3, padding=1),  # Output: (384 x 13 x 13)
+            nn.ReLU(),
+
+            nn.Conv2d(in_channels=384, out_channels=256, kernel_size=3, padding=1),  # Output: (256 x 13 x 13)
+            nn.ReLU(),
+            nn.MaxPool2d(kernel_size=3, stride=2),  # Output: (256 x 6 x 6)
+        )
+
+        # Define 3 fully connected (linear) layers with dropout and ReLU activation
+        self.linear = nn.Sequential(
+            nn.Dropout(p=0.5, inplace=True),
+            nn.Linear(in_features=256 * 6 * 6, out_features=4096), 
+            nn.ReLU(),
+            nn.Dropout(p=0.5, inplace=True),
+            nn.Linear(in_features=4096, out_features=4096),  
+            nn.ReLU(),
+            nn.Dropout(p=0.5, inplace=True),
+            nn.Linear(in_features=4096, out_features=num_classes) 
+        )
+
+        # Initialize model parameters
+        self.init_parameters()
+
+    def init_parameters(self):
+        for layer in self.net:
+            if isinstance(layer, nn.Conv2d):
+                nn.init.normal_(layer.weight, mean=0, std=0.01)
+                nn.init.constant_(layer.bias, 0)
+        # Set specific biases to 1 for conv2, conv4, and conv5 layers (as per paper)
+        nn.init.constant_(self.net[4].bias, 1)  # Conv2
+        nn.init.constant_(self.net[10].bias, 1)  # Conv4
+        nn.init.constant_(self.net[12].bias, 1)  # Conv5
+
+    def forward(self, x):
+        x = self.net(x)  # Pass through conv. layers
+        x = x.view(-1, 256 * 6 * 6)  # Flatten for linear layers
+        out = self.linear(x)  # Pass through linear layers
+        return out
+
 
 """ LeNet-5 Architecture """
 
