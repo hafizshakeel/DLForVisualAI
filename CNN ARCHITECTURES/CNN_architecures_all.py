@@ -404,6 +404,11 @@ class AlexNet(nn.Module):
         return out
 
 
+# model = AlexNet()
+# x = torch.randn(4, 3, 227, 227)
+# print(model(x).shape)
+
+
 """ LeNet-5 Architecture """
 
 
