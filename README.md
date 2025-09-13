@@ -49,14 +49,6 @@ cd CNN ARCHITECTURES
 # See test_model() in each file for usage examples
 ```
 
-## Features
-
-- Clean, documented implementations of core CNN architectures
-- Training infrastructure with TensorBoard visualization
-- Support for both custom datasets and standard datasets (MNIST)
-- GPU acceleration support where available
-- Configurable hyperparameters and training options
-
 ## License
 
 This project is licensed under the MIT License.
